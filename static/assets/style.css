@@ -1,0 +1,133 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  background-color: rgb(143, 70, 70);
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav {
+  padding: 20px;
+}
+.header__nav_link {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.your-custom-exact-active-link {
+  color: black;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.header__nav_link:hover {
+  font-size: 20px;
+}
+.header__contacts {
+  padding: 20px;
+}
+.header__contacts_name {
+  color: white;
+  font-family: Roboto;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.header__contacts_link {
+  margin-top: 5px;
+  color: white;
+  font-family: Roboto;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    background-color: rgb(226, 53, 53);
+  }
+  .header__nav {
+    padding: 15px;
+  }
+  .header__nav_link {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .header__nav_link:hover {
+    font-size: 18px;
+  }
+  .header__contacts {
+    padding: 15px;
+  }
+  .header__contacts_name {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .header__contacts_link {
+    margin-top: 5px;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header {
+    background-color: rgb(226, 53, 53);
+  }
+  .header__nav {
+    padding: 10px;
+  }
+  .header__nav_link {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .header__nav_link:hover {
+    font-size: 18px;
+  }
+  .header__contacts {
+    padding: 10px;
+  }
+  .header__contacts_name {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .header__contacts_link {
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    background-color: rgb(226, 53, 53);
+    flex-direction: column;
+  }
+  .header__nav {
+    padding: 7px;
+  }
+  .header__nav_link {
+    margin-right: 8px;
+    font-size: 15px;
+  }
+  .header__nav_link:hover {
+    font-size: 18px;
+  }
+  .header__contacts {
+    padding: 7px;
+  }
+  .header__contacts_name {
+    margin-right: 8px;
+    font-size: 15px;
+  }
+  .header__contacts_link {
+    margin-top: 5px;
+    margin-right: 8px;
+    font-size: 15px;
+  }
+}
+/* header */
